@@ -105,9 +105,9 @@ workflows:
             - lint-website:
                 requires:
                     - install-dependencies
-            - unit-tests-and-coverage
+            - unit-tests-and-coverage:
                 requires:
                     - install-dependencies
-            - unit-tests-node-v10
+            - unit-tests-node-v10:
                 requires:
                     - install-dependencies-v10
