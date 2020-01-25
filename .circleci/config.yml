@@ -73,11 +73,11 @@ jobs:
     install-dependencies:
         executor: node-v12
         steps:
-            - dependencies
+            - install-dependencies
     install-dependencies-v10:
         executor: node-v10
         steps:
-            - dependencies
+            - install-dependencies
     lint-and-typecheck:
         executor: node-v12
         steps:
